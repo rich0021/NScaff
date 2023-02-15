@@ -14,4 +14,9 @@ $db->conn();
 // Create Router instance
 $router = new Router();
 
+(require 'Config/Middlewares.php')($router);
+
 (require 'Config/Routes.php')($router);
+
+// run the router
+$router->run();

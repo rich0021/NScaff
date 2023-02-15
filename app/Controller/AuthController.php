@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller;
 
-class Student {
+class AuthController {
     public function index(){
-        echo 'nopal index';
+        echo 'login';
     }
 }
