@@ -1,8 +1,8 @@
 <?php
 namespace App\Controller;
 
-class Student {
-    public function index(){
+class ExampleController {
+    public static function index(){
         echo 'nopal index';
     }
 }

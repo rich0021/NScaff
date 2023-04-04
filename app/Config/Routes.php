@@ -1,8 +1,9 @@
 <?php
 
 use Bramus\Router\Router;
-use App\Controller\Student;
+use App\Controller\ExampleController;
+use App\Model\Example;
 
 return function(Router $router){
-    $router->get('/', [Student::class, 'index']);
+    $router->get('/', [ExampleController::class, 'index']);
 };
